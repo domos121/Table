@@ -1,28 +1,26 @@
 {
-  "name": "chomenko/modal",
+  "name": "domos121/table",
   "type": "extensions",
-  "description": "Nette Bootstrap modal",
-  "keywords": ["Modal", "Bootstrap"],
-  "homepage": "https://github.com/chomenko/modal",
+  "description": "Nette user Table",
+  "keywords": ["Table"],
+  "homepage": "https://github.com/domos121/Table",
   "license": [],
   "authors": [
     {
-      "name": "Mykola Chomenko",
-      "homepage": "http://dipcom.cz/",
-      "email": "mykola.chomenko@dipcom.cz"
+      "name": "Domos",
+      "homepage": "",
+      "email": "dominik.lau46@gmial.com"
     }
   ],
   "support": {
-    "email": "mykola.chomenko@dipcom.cz"
+    "email": "dominik.lau46@gmial.com"
   },
   "require": {
     "php": ">=7.1",
     "nette/di": ">=2.4",
     "nette/application": ">=2.4",
     "latte/latte": ">=2.4",
-    "nette/utils": ">=2.4",
-    "tracy/tracy": ">=2.4",
-    "chomenko/app-webloader": "@dev"
+    "nette/utils": ">=2.4"
   },
   "autoload": {
     "psr-4": {
