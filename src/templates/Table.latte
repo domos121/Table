@@ -1,0 +1,7 @@
+ <table>
+    <tr n:foreach="$table as $entity">
+        <td>
+            <a href="{$this->getParameter('presenter')->link(":Core:AdminUser:default", ['id' => $entity->getId()])}">{$entity->getId()}. {$entity->getName()}</a>
+        </td>
+    </tr>
+</table>
